@@ -1940,7 +1940,7 @@ html[style*='margin-right'] .main-nav {
 .tools {
   margin: 0;
   text-align: center;
-  line-height: 90px;
+  line-height: 60px;
 }
 
 .tools img {
@@ -3073,4 +3073,8 @@ a img.aligncenter {
 img#initials {
   padding-left: 18px;
   padding-top: 18px;
+}
+
+.tools-item {
+  width: 80px;
 }
