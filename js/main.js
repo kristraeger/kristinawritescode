@@ -285,7 +285,7 @@
 			items: 11,
 			autoPlay: true,
 			theme: 'owl-unica',
-			pagination: false
+			pagination: false,
 		});
 
 		/*=======================================

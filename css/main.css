@@ -3078,3 +3078,7 @@ img#initials {
 .tools-item {
   width: 80px;
 }
+
+.tools img {
+  border-radius: 3px;
+}
