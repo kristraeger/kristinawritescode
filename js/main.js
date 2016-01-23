@@ -286,6 +286,14 @@
 			autoPlay: true,
 			theme: 'owl-unica',
 			pagination: false,
+			itemsDesktop: [1199,11],
+			itemsDesktopSmall: [799,8],
+			itemsTablet: [768,8],
+			itemsTabletSmall: [600,6],
+			itemsMobile: [414,4],
+			stopOnHover: true,
+			navigation: true,
+			navigationText: ["<",">"]
 		});
 
 		/*=======================================
