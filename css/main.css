@@ -3089,3 +3089,7 @@ img#initials {
 .works-item-thumb:focus {
   outline: none;
 }
+
+li.works-item.shuffle-item.filtered:focus {
+  outline: none;
+}
