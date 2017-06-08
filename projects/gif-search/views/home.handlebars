@@ -1,0 +1,10 @@
+<!-- home.handlebars -->
+<h1>Search for GIFS</h1>
+<form action="/">
+  <input type="text" name="term">
+  <button type="submit">Search</button>
+</form>
+
+{{#each gifs}}
+  <img src="{{this.images.fixed_height.url}}">
+{{/each}}

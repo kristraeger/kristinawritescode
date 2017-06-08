@@ -1,0 +1,28 @@
+{
+  "name": "gif-search",
+  "version": "1.0.0",
+  "description": "gif search tutorial make school",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristraeger/gif-search.git"
+  },
+  "keywords": [
+    "gif",
+    "search"
+  ],
+  "author": "kristina traeger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristraeger/gif-search/issues"
+  },
+  "homepage": "https://github.com/kristraeger/gif-search#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "giphy-api": "^1.2.6"
+  }
+}
