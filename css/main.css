@@ -1761,6 +1761,10 @@ html[style*='margin-right'] .main-nav {
   color: #000000;
 }
 
+.works .works-item .works-item-link:focus{
+  outline:none;
+}
+
 .works .works-item .works-item-link .works-item-thumb {
   position: absolute;
   left: 0;

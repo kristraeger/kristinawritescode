@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117103927-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117103927-1');
+    </script>
+
+    <meta charset="utf-8">
+    <title>Recommendations</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="Description" content="Browse items of hundreds of sustainable fashion brands at once. Easily set search preferences
+    like vegan, Made in US, organic cotton or made from recycled material. ">
+    <meta property="og:site_name" content="Tomaeto Tomahto">
+    <meta property="og:title" content="Find new clothes based on your ethical and eco preferences.">
+    <meta property="og:description" content="Easily shop ethical and eco-friendly fashion from hundreds of brands across the globe. Set search preferences, e.g vegan, organic cotton or recycled fabrics. Only buy from brands you believe in. Filter for free shipping and product category.">
+    <meta property="og:image" content="https://res.cloudinary.com/tmth/image/upload/v1523610537/fb-header.png">
+    <meta property="og:type" content="shop">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lato" rel="stylesheet" >
+    <link href="https://res.cloudinary.com/tmth/image/upload/v1525914510/tmth/favicon_new.png" rel="icon" type="image/x-icon" >
+    <link href="../../assets/css/base.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/recommendations.css" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" href="https://res.cloudinary.com/tmth/image/upload/v1525914510/tmth/favicon_new.png">
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+          <a href="/">
+            <div class="nav-logo-wrapper">
+              <div class="img-wrapper">
+                <img class="brand-img"
+                  src= 'https://res.cloudinary.com/tmth/image/upload/c_scale,w_476/v1521851429/logo.png'>
+              </div>
+            </div>
+          </a>
+        </div>
+    </nav>
+    <div class="close-all"></div>
+    <div class="signup-form">
+      <div class="form-item form-toggle-btn">
+        <div class="form-close flex-child back-menu"></div>
+        <div class="form-title flex-child">Launching soon!</div>
+      </div>
+      <div class="form-wrapper">
+        <div class="form-intro">
+          <h3 class="flex-child tag">#ConsciousIsTheNewCool</h3>
+
+          <h3 class="flex-child">We're currently onboarding more brands for you. We let you when we're open for shopping!</h3>
+          <h3 class="flex-child">Receive a <strong> free list of Conscious Brands </strong> to hold you over:</h3>
+        </div>
+        <form role="form" method="post" action="../signup.php" class="signup-form-box" autocomplete="off" id="signupForm">
+          <input class="name flex-child" name="name" type="text" placeholder="your name" required>
+          <input class="email flex-child" name="email" type="email" placeholder="your email" required>
+          <div class="form-btn">
+            <button class="submit-btn" type="submit" name="submit">Submit</button>
+          </div>
+          <div class="form-fail" style="display:none">
+            Make sure to enter your name and a valid email address.
+          </div>
+
+          <div class="brand-link" style="display:none">
+            <a href="/" >Know of a brand you'd love to see on here? Follow this link.</a>
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+    <div class="main">
+
+      <section class="header-wrapper">
+
+        <header class="header page-header recommendations-header">
+          <h1 class="title">
+            <span class="background-text">Recommendations
+            </span>
+          </h1>
+          <h1 class="title">
+            <span>Vintage Lover - Fashionista - Creative - Laid Back - Tech-savy - Ethical production advocate!
+            </span>
+          </h1>
+        </header>
+
+      </section>
+
+      <section>
+        <div class="page-content step">
+          <h3 class="title">We've found some styles for you!</h3>
+
+          <p>Thanks for taking the quiz! We curated this clickable list of brands we think you might like. Please let us know how we did so we can do better next time :) </p>
+          <p>Read up on our #ConsciousTags <a href="/conscious-guide" target="blank">here</a></p>
+
+          <div class="brands-list table">
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shr0o0uZV1ard0INB?backgroundColor=yellow&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+          </div>
+
+          <div class= "legend-tags table">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="howitworks">
+
+        <div class="header banner conscious-guide-banner">
+          <div class="banner-content">
+            <div class="banner-img">
+            </div>
+            <div class="banner-text">
+              <h1 class="title">
+                <span class="background-text">Conscious Guide
+                </span>
+              </h1>
+              <div class="sub-title">
+                <span class="background-text">How To Shop Clothes Consciously:</span>
+                <br>
+                <span class="background-text">Learn about our #ConsciousTags.</span>
+              </div>
+
+              <p class="sub-title sign-up">
+                <a href="./conscious-guide">
+                  <button class="banner-btn ">View Guide</button>
+                </a>
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+    <!-- end of main -->
+
+    <footer>
+
+      <div class="footer button-footer">
+
+        <a class="footer-nav first " href="/conscious-guide">
+          <div class="footer-nav-title flex-child">Conscious Guide</div>
+        </a>
+
+        <a class="footer-nav " href="/story">
+          <div class="footer-nav-title flex-child">Story</div>
+        </a>
+
+        <a class="footer-nav" href="/">
+          <div class="footer-nav-title flex-child">Home</div>
+        </a>
+
+        <a class="footer-nav last" href="https://medium.com/tomaetotomahto">
+          <div class="footer-nav-title flex-child">Blog</div>
+        </a>
+
+      </div>
+
+      <div class="footer static-footer" >
+        <div class="footer-nav first">
+          <div class="footer-nav-title flex-child">c 2018 @tomaetotomahto</div>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-nav-title flex-child">with love from SF, CA.</div>
+        </div>
+
+        <div class="footer-nav last">
+          <div class="footer-nav-title flex-child">tomaeto [at] tomahto.email</div>
+        </div>
+      </div>
+
+    </footer>
+
+
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="../../assets/js/main.js"></script>
+  <script src="../../assets/js/signup.js"></script>
+</html>
